@@ -10,6 +10,7 @@
   --dark-grey: #666;
   --light-grey: #ccc;
   --un-color: #4b92db;
+  --dark-un-color: #2e6ab0;
   --cream: #f9f7ed;
   --transparent-white: #ffffffcc;
   --transition: all ease-out 300ms;
@@ -198,8 +199,8 @@ div.ico > button > * {
 
 button.btn {
   background: white;
-  color: var(--dark-grey);
-  border: 1px solid black;
+  color: var(--un-color);
+  border: 1px solid var(--un-color);
   outline: none;
   border-radius: var(--border-radius);
   padding: 0.3em 0.5em;
@@ -210,8 +211,8 @@ button.btn {
 }
 button.btn:hover {
   /* opacity: var(--hover-opacity); */
-  color: var(--un-color);
-  border-color: var(--un-color);
+  color: var(--dark-un-color);
+  border-color: var(--dark-un-color);
 }
 button.btn > * {
   vertical-align: baseline;
