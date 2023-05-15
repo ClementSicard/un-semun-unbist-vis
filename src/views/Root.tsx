@@ -63,7 +63,7 @@ const Root: FC<{ lang: string }> = ({ lang }) => {
           labelRenderer: drawLabel,
           defaultNodeType: 'image',
           defaultEdgeType: 'line',
-          labelDensity: 0.07,
+          labelDensity: 1.0,
           labelGridCellSize: 100,
           labelRenderedSizeThreshold: 6,
           labelFont: 'Helvetica Neue, sans-serif',
